@@ -1,0 +1,366 @@
+/* bloco_Principal*/
+#bloco_principal{
+	width: 595px;
+	height: 845px;
+	margin: auto;
+}
+
+/*conteudo_folder*/
+#conteudo_azul{
+	width: 595px;
+	height: 144px;
+	background-color: #2E73B9;
+}
+/*Texto conteudo_azul*/
+#div_texto_titulo_agua{
+	float: left;
+	height: 100%;
+	width: 282px;
+}
+/*Conf do texto AGUA*/
+#txt_agua{
+	font-family: 'Arial Black';
+	color: #fff;	
+	font-size: 55px;
+	margin-top: 22px;
+	margin-left: 29px;
+}
+/*Conf do texto sub da  agua*/
+#txt_sub_texto_agua{
+	color: #fff;
+	font-style: italic;
+	font-size: 10px;
+	margin-left: 29px;
+	margin-top: -10px;
+	font-family: 'segoe print'
+}
+
+/*Div conteudo agua*/
+#texto_conteudo_agua{
+	float: left;
+	width: 310px;
+	height: 100%;
+	
+}
+/*paragrafo conteudo agua*/
+#texto_conteudo_agua_p{
+	font-family: 'nirmala ui';
+	font-size:11px;
+	text-align: justify;
+	margin-top: 19px;
+	margin-right: 15px;
+	color: #ffffff;
+
+}
+/*paragrafo conteudo agua*/
+#texto_conteudo_agua_p span{
+	text-transform: uppercase;
+	color: #ffffff;
+	font-size: 12.5px;
+}
+/*----------------------*/
+/*-------Configuração do conteudo verde --------*/
+#conteudo_verde{
+	width: 595px;
+	height: 125px;
+	background-color:#286C5C;
+}
+#texto_lateral_verde{
+	float: left;
+	width: 125px;
+	height: 30px;
+	background-color: #0A6938 ;
+	color: #ffffff;
+	font-family: arial;
+	font-size: 13px;
+	text-align: center;
+
+	position: absolute;
+	margin-top: 47.5px;
+	margin-left: -47.5px;
+	
+
+	transform:rotate(-90deg);
+	-ms-transform:rotate(-90deg);
+	-webkit-transform:rotate(-90deg);
+}
+div.texto_lateral_interno_verde{
+	margin-top: 7px;
+}
+
+#imagem_lateral_verde{
+	float: left;
+	width: 192px;
+	height: 112px;
+	margin-top: 12px;
+	
+	position: relative;
+	margin-left: 31px;
+	
+}
+#texto_conteudo_verde{
+	width: 350px;
+	height: 124px;
+	float: left;
+	margin-left: 21px;
+
+}
+.caixa_texto{
+	width: 350px;
+	text-align: left;
+	font-family: 'nirmala ui';
+	font-size: 11px;
+	color: #ffffff;
+}
+#txt_verde{
+	list-style-image: url("gota.png"); /* colocar imagen no marcador*/
+}
+/*--------------------------------------------*/
+/*-------Configuração do conteudo cinza --------*/
+#conteudo_cinza{
+	width: 595px;
+	height: 115px;
+	background-color:#737F84;
+
+
+}
+#texto_lateral_cinza{
+	float: left;
+	width: 115px;
+	height: 30px;
+	background-color: #867875;
+	color: #ffffff;
+	font-family: arial;
+	font-size: 13px;
+
+	text-align: center;
+
+	position: absolute;
+	margin-top: 42.5px;
+	margin-left: -42.5px;
+
+	transform:rotate(-90deg);
+	-ms-transform:rotate(-90deg);
+	-webkit-transform:rotate(-90deg);
+
+}
+#texto_lateral_interno_cinza{
+	margin-top: 7px;
+
+}
+#imagem_lateral_cinza{
+	float: left;
+	width: 192px;
+	height: 112px;
+	margin-left: 31px;
+	
+	margin-top: 2px;
+}
+#texto_conteudo_cinza{
+	float: left;
+	width: 350px;
+	height: 112px;
+	margin-left: 21px;
+	
+}
+/*--------------------------------------------*/
+/*-------Configuração conteudo Azul2 ---------*/
+#conteudo_azul2{
+	width: 595px;
+	height: 147px;
+	background-color:#396AB1;
+}
+
+#texto_lateral_azul2{
+	float: left;
+	width: 146px;
+	height: 30px;
+	background-color: #024893;
+	color: #ffffff;
+	font-family: arial;
+	font-size: 12px;
+
+	text-align: center;
+
+	position: absolute;
+	margin-top: 58.5px;
+	margin-left: -58px;
+
+	transform:rotate(-90deg);
+	-ms-transform:rotate(-90deg);
+	-webkit-transform:rotate(-90deg);
+}
+#texto_lateral_interno_azul2{
+	margin-top: 7px;
+}
+#imagem_lateral_azul2{
+	float: left;
+	width: 192px;
+	height: 114px;
+	margin-left: 31px;
+
+	margin-top: 32px;
+}
+#texto_conteudo_azul2{
+	float: left;
+	width: 350px;
+	height: 147px;
+	margin-left: 21px;
+
+
+
+}
+/*--------------------------------------------*/
+/*----Configuração conteurdo laranja--------- */
+#conteudo_laranja{
+	width: 595px;
+	height: 147px;
+	background-color:#F08213;
+}
+#texto_lateral_laranja{
+	float: left;
+	width: 147px;
+	height: 30px;
+	background-color: #B8660B;
+
+	color: #ffffff;
+	font-family: arial;
+	font-size: 13px;
+
+	text-align: center;
+
+	position: absolute;
+	margin-top: 58.5px;
+	margin-left: -58.5px;
+
+	transform:rotate(-90deg);
+	-ms-transform:rotate(-90deg);
+	-webkit-transform:rotate(-90deg);
+
+
+}
+#texto_lateral_interno_laranja{
+	margin-top: 7px;
+}
+#imagem_lateral_laranja{
+	float: left;
+	width: 199px;
+	height: 126px;
+
+	margin-left: 31px;
+	margin-top: 20px;
+	
+}
+#texto_conteudo_laranja{
+	float: left;
+	width: 350px;
+	height: 147px;
+	margin-left: 14px;
+	
+}
+/*--------------------------------------------*/
+/*--------Configuração conteudo Branco -------*/
+#conteudo_branco{
+	width: 595px;
+	height: 126px;
+	background-color:#FFFFFF;
+}
+#texto_lateral_Branco{
+	float: left;
+	width: 126px;
+	height: 30px;
+	background-color: #6095CF;
+
+	color: #ffffff;
+	font-family: arial;
+	font-size: 13px;
+
+	text-align: center;
+
+	position: absolute;
+	margin-top: 48px;
+	margin-left: -48px;
+
+	transform:rotate(-90deg);
+	-ms-transform:rotate(-90deg);
+	-webkit-transform:rotate(-90deg);
+}
+#texto_lateral_interno_branco{
+	margin-top: 7px;
+}
+#imagem_prato{
+	width: 169px;
+	float: left;
+	height: 126px;
+	margin-left: 31px;	
+	padding: auto;
+}
+#img_prato{
+	width: 80px;
+	height:77px;
+	margin:auto;
+}
+#txt_img_prato{
+	width: 80px;
+	font-size: 10px;
+	font-family: Arial;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+#imagem_meio{
+	float: left;
+	width: 228px;
+	height: 126px;
+	border-right: 1px solid #C9C9C8;
+	border-left: 1px solid #C9C9C8;
+}
+#img_do_meio{
+	width: 80px;
+	height: 77px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#txt_img_meio{
+	width: 150px;
+	font-size: 10px;
+	font-family: Arial;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+#imagem_carro{
+	float: left;
+	width:  164px ;
+	height: 126px ;
+}
+#img_carro{
+	width:80px ;
+	height:77px ;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+#txt_img_carro{
+	width: 60px;
+	font-size: 10px;
+	font-family: Arial;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+/*--------------------------------------------*/
+/*--------Configuração logo-------------------*/
+#conteudo_logo{
+	width: 595px;
+	height: 59px;
+	
+}
+
+#img_logo{
+	width: 468px;
+	margin-left: auto;
+	margin-right: auto;
+
+}
